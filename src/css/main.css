@@ -337,6 +337,88 @@ h3{
     align-items: center;
     z-index: 100;
 }
+/*
+-----------
+VMULTIPLAYER
+-----------
+*/
+#multiplayer{
+    height: 100vh;
+    background-image: url(../img/halo-infinite-cover-darkmode.png);
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.info{
+    line-height: 1.2;
+    padding: 40px;
+    width: 600px;
+    margin-right: 50px;
+
+    transition: background-color 0.3s ease;
+}
+.info p{
+    font-size: 20px;
+
+}
+/*
+-----------
+STORE
+-----------
+*/
+#get-the-game{
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+#get-the-game h2{
+    color: white;
+
+}
+#get-the-game h3{
+    font-size: 1.8rem;
+    padding: 0;
+    margin: 0;
+
+}
+#get-the-game .item-store{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
+}
+#get-the-game .item-store .left{
+    width: 100%;
+    padding: 0 20px;
+}
+#get-the-game .item-store .left img{
+    width: 500px;
+
+}
+#get-the-game .item-store .right{
+    text-align: left;
+    
+    width: 80%;
+
+}
+footer{
+    height: 800px;
+    background-image: url(../img/halo-infinite-cover-darkmode.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1519px){
+    .info{
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+    }
+
+}
+
+
 @media screen and (max-width: 1191px){
     nav .link-hide{
         display: none;
@@ -358,6 +440,32 @@ h3{
     }
     #slider #current iframe{
         height: 500px;
+    }
+    #multiplayer{
+        background-position: -400px left;
+         
+    }
+    .info{
+        margin: 0 auto;
+    }
+    #get-the-game .item-store{
+      
+        width: 100%;
+        padding: 20px;
+
+    }
+    #get-the-game .item-store .left img{
+        width: 300px;
+
+    }
+    #get-the-game .item-store .right{
+       
+        width: 100%;
+
+    }
+    footer{
+        
+        background-position: center center;
     }
 
 }
@@ -389,5 +497,31 @@ h3{
     #slider #videos-container{
         display: none !important;
     }
-    
+    #multiplayer{
+        background-position: -400px 0px;
+    }
+    .info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #get-the-game .item-store{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+
+    }
+    #get-the-game .item-store .left img{
+        width: 300px;
+
+    }
+    #get-the-game .item-store .right{
+        text-align: center;
+        width: 100%;
+        
+    }
+    footer{
+        height: 400px;
+        background-position: center center;
+    }
 }
