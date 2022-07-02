@@ -1,3 +1,6 @@
+import "../css/main.css";
+import "../css/scheme.css";
+
 const moreOptions = document.querySelector("#bmore");
 const bShowMobileLinks = document.querySelector("#bmenu");
 const mobileMenu = document.querySelector(".links");
@@ -77,7 +80,7 @@ function renderVideos(){
     document.querySelector('.item a').forEach((item) => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
-            const id = +item.getAtribute('data-id')
+            const id = +item.getAtribute('data-id');
             current = id;
 
             renderCurrentVideo(videos[current].id);
