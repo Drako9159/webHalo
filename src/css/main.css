@@ -399,9 +399,7 @@ STORE
 }
 #get-the-game .item-store .right{
     text-align: left;
-    
     width: 80%;
-
 }
 footer{
     height: 800px;
@@ -409,16 +407,12 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 @media screen and (max-width: 1519px){
     .info{
         background-color: rgba(0,0,0,0.8);
         color: white;
     }
-
 }
-
-
 @media screen and (max-width: 1191px){
     nav .link-hide{
         display: none;
