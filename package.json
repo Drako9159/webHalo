@@ -1,0 +1,20 @@
+{
+  "name": "webhalo",
+  "version": "1.0.0",
+  "description": "new web page for halo gaming",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drako9159/webHalo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drako9159/webHalo/issues"
+  },
+  "homepage": "https://github.com/Drako9159/webHalo#readme"
+}
