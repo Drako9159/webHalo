@@ -399,13 +399,8 @@ STORE
 }
 #get-the-game .item-store .right{
     text-align: left;
-<<<<<<< HEAD
-    
-    width: 80%;
 
-=======
     width: 80%;
->>>>>>> 1718a161ecf6c5820a6426609adb2764ef7c8172
 }
 footer{
     height: 800px;
@@ -413,23 +408,12 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 1718a161ecf6c5820a6426609adb2764ef7c8172
 @media screen and (max-width: 1519px){
     .info{
         background-color: rgba(0,0,0,0.8);
         color: white;
     }
-<<<<<<< HEAD
-
 }
-
-
-=======
-}
->>>>>>> 1718a161ecf6c5820a6426609adb2764ef7c8172
 @media screen and (max-width: 1191px){
     nav .link-hide{
         display: none;
