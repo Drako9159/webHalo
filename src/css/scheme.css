@@ -3,15 +3,13 @@
         background-color: white;
     }
     header{
-        background-image: url(../img/halo-infinite-cover-darkmode.png);
-        
+        background-image: url(../img/halo-infinite-cover-darkmode.jpg);
     }
     nav{
         background-color: rgba(255,255,255,0.4);
     }
     nav ul li a{
         color: black;
-
     }
     nav ul li .link::before{
         background-color: black;
@@ -50,7 +48,6 @@
     }
     .green-link{
         color: rgb(140,211,32);
-
     }
     .green-link::before{
         background-color: rgb(140,211,32);
@@ -72,12 +69,9 @@
         color: black;
     }
     footer{
-        background-image: url(../img/halo-infinite-cover-darkmode.png);
+        background-image: url(../img/master-chief-darkmode.jpg);
     }
-
 }
-
-
 @media (prefers-color-scheme: dark){
     
 }

@@ -1,5 +1,4 @@
-import "../css/main.css";
-import "../css/scheme.css";
+
 
 const moreOptions = document.querySelector("#bmore");
 const bShowMobileLinks = document.querySelector("#bmenu");
