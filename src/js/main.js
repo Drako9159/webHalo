@@ -47,7 +47,6 @@ bNext.addEventListener('click', (e) => {
     
     if(current != changed){
         renderCurrentVideo(videos[current].id);
-
     }
 
 });
@@ -72,7 +71,6 @@ function renderVideos(){
         <a href="#" data-id="${index}">
             <img src="https://i3.ytimg.com/vi/${video.id}/mqdefault.jpg"/>
         </a>
-        
         </div>`;
     });
     videosContainer.innerHTML = html.join("");
@@ -81,7 +79,6 @@ function renderVideos(){
             e.preventDefault();
             const id = +item.getAtribute('data-id');
             current = id;
-
             renderCurrentVideo(videos[current].id);
         });
     });
