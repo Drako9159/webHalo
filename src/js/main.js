@@ -48,7 +48,6 @@ bNext.addEventListener('click', (e) => {
     if(current != changed){
         renderCurrentVideo(videos[current].id);
     }
-
 });
 bPrev.addEventListener('click', (e) => {
     let changed = current;
@@ -61,7 +60,6 @@ bPrev.addEventListener('click', (e) => {
 });
 renderCurrentVideo(videos[current].id);
 renderVideos();
-
 function renderCurrentVideo(id){
     currentContainer.innerHTML = `codigo para enveverlo${id}`;
 };
