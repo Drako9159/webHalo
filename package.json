@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "new web page for halo gaming",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Drako9159/webHalo/issues"
   },
-  "homepage": "https://github.com/Drako9159/webHalo#readme"
+  "homepage": "https://github.com/Drako9159/webHalo#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
 }
