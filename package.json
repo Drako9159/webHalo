@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Drako9159/webHalo#readme",
   "dependencies": {
     "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0"
   }
 }
